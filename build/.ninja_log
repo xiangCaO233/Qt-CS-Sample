@@ -1,0 +1,9 @@
+# ninja log v7
+3	30	1762014803605057898	qtiptest_autogen/timestamp	ecee09df60fea308
+3	30	1762014803605057898	qtiptest_autogen/mocs_compilation.cpp	ecee09df60fea308
+3	30	1762014803605057898	/home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/timestamp	ecee09df60fea308
+3	30	1762014803605057898	/home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/mocs_compilation.cpp	ecee09df60fea308
+347	1813	1762014163780951797	CMakeFiles/qtiptest.dir/qtiptest_autogen/mocs_compilation.cpp.o	593abd5c0173dcba
+347	1822	1762014163781680478	CMakeFiles/qtiptest.dir/src/main.cpp.o	2a40e6a075589611
+1723	1904	1762014805325072545	qtiptest	d259acec608eb745
+30	1723	1762014803632058128	CMakeFiles/qtiptest.dir/src/mainwindow.cpp.o	9f4fd9403d3a2b15

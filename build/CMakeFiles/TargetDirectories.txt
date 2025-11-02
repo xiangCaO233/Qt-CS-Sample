@@ -1,0 +1,9 @@
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/edit_cache.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/rebuild_cache.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/list_install_components.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/install.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/install/local.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/install/strip.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest_autogen_timestamp_deps.dir
+/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest_autogen.dir
