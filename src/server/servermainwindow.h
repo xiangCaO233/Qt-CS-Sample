@@ -4,7 +4,7 @@
 #include <QMainWindow>
 
 namespace Ui {
-class MainWindow;
+class ServerMainWindow;
 }
 
 class MainServer;
@@ -16,11 +16,12 @@ class ServerMainWindow : public QMainWindow {
     explicit ServerMainWindow(QWidget *parent = nullptr);
     ~ServerMainWindow();
 
-    void start(short port);
-
    private:
-    Ui::MainWindow *ui;
+    Ui::ServerMainWindow *ui;
     MainServer *m_Mainserver{nullptr};
+
+    void start(short port);
+    void stop();
 };
 
 #endif  // MAINWINDOW_H

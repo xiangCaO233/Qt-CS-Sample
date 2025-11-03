@@ -1,3 +1,6 @@
+#ifndef QTIP_MAINSERVER_H
+#define QTIP_MAINSERVER_H
+
 #include <QObject>
 #include <QTcpServer>
 #include <QTcpSocket>
@@ -10,6 +13,9 @@ class MainServer : public QObject {
 
     // 启动服务器
     void startServer(short port);
+
+    // 关闭服务器
+    void stopServer();
 
    private slots:
     // 新连接
@@ -25,3 +31,5 @@ class MainServer : public QObject {
     QTcpServer* m_Server;
     QList<QTcpSocket*> m_Clients;
 };
+
+#endif  // QTIP_MAINSERVER_H

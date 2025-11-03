@@ -1,26 +1,50 @@
 [
 {
   "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtiptest.dir/qtiptest_autogen/mocs_compilation.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/mocs_compilation.cpp",
-  "file": "/home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/mocs_compilation.cpp",
-  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest.dir/qtiptest_autogen/mocs_compilation.cpp.o"
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ServerTest.dir/qtip-ServerTest_autogen/mocs_compilation.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/mocs_compilation.cpp",
+  "file": "/home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/mocs_compilation.cpp",
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ServerTest.dir/qtip-ServerTest_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtiptest.dir/src/main.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/main.cpp",
-  "file": "/home/xiang/Documents/coding/c_cpp/qtip/src/main.cpp",
-  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest.dir/src/main.cpp.o"
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ServerTest.dir/src/server/ServerMain.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/server/ServerMain.cpp",
+  "file": "/home/xiang/Documents/coding/c_cpp/qtip/src/server/ServerMain.cpp",
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ServerTest.dir/src/server/ServerMain.cpp.o"
 },
 {
   "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtiptest.dir/src/server/servermainwindow.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/server/servermainwindow.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ServerTest.dir/src/server/MainServer.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/server/MainServer.cpp",
+  "file": "/home/xiang/Documents/coding/c_cpp/qtip/src/server/MainServer.cpp",
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ServerTest.dir/src/server/MainServer.cpp.o"
+},
+{
+  "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ServerTest.dir/src/server/servermainwindow.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/server/servermainwindow.cpp",
   "file": "/home/xiang/Documents/coding/c_cpp/qtip/src/server/servermainwindow.cpp",
-  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest.dir/src/server/servermainwindow.cpp.o"
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ServerTest.dir/src/server/servermainwindow.cpp.o"
 },
 {
   "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtiptest.dir/src/client/clientmainwindow.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/client/clientmainwindow.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ClientTest.dir/qtip-ClientTest_autogen/mocs_compilation.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/mocs_compilation.cpp",
+  "file": "/home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/mocs_compilation.cpp",
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ClientTest.dir/qtip-ClientTest_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ClientTest.dir/src/client/ClientMain.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/client/ClientMain.cpp",
+  "file": "/home/xiang/Documents/coding/c_cpp/qtip/src/client/ClientMain.cpp",
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ClientTest.dir/src/client/ClientMain.cpp.o"
+},
+{
+  "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ClientTest.dir/src/client/StandardClient.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/client/StandardClient.cpp",
+  "file": "/home/xiang/Documents/coding/c_cpp/qtip/src/client/StandardClient.cpp",
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ClientTest.dir/src/client/StandardClient.cpp.o"
+},
+{
+  "directory": "/home/xiang/Documents/coding/c_cpp/qtip/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access -o CMakeFiles/qtip-ClientTest.dir/src/client/clientmainwindow.cpp.o -c /home/xiang/Documents/coding/c_cpp/qtip/src/client/clientmainwindow.cpp",
   "file": "/home/xiang/Documents/coding/c_cpp/qtip/src/client/clientmainwindow.cpp",
-  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest.dir/src/client/clientmainwindow.cpp.o"
+  "output": "/home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ClientTest.dir/src/client/clientmainwindow.cpp.o"
 }
 ]

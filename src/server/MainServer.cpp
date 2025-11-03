@@ -25,6 +25,21 @@ void MainServer::startServer(short port) {
     }
 }
 
+// 关闭服务器
+void MainServer::stopServer() {
+    // 停止服务器，不再接受新连接
+    m_Server->close();
+    qDebug() << "服务器已停止监听。";
+
+    // 遍历并断开所有现有客户端的连接
+    qDebug() << "正在断开所有客户端连接...";
+    for (const auto& client : m_Clients) {
+        // 请求客户端优雅地断开连接
+        // 这会触发客户端socket的disconnected()信号
+        client->disconnectFromHost();
+    }
+}
+
 // 新连接
 void MainServer::onNewConnection() {
     // 获取客户端socket
