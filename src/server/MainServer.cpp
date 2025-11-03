@@ -10,7 +10,7 @@ MainServer::MainServer(QObject* parent) : QObject(parent) {
             &MainServer::onNewConnection);
 }
 
-MainServer::~MainServer() {}
+MainServer::~MainServer() { m_Server->close(); }
 
 // 启动服务器
 void MainServer::startServer(short port) {

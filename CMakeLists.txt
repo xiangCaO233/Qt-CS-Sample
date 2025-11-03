@@ -20,12 +20,12 @@ find_package(Qt6 REQUIRED COMPONENTS Core Widgets Svg Sql Network)
 
 set(ServerSources
     src/server/ServerMain.cpp src/server/MainServer.h src/server/MainServer.cpp
-    src/server/servermainwindow.h src/server/servermainwindow.cpp
-    src/server/servermainwindow.ui)
+    src/server/ui/servermainwindow.h src/server/ui/servermainwindow.cpp
+    src/server/ui/servermainwindow.ui)
 set(ClientSources
     src/client/ClientMain.cpp src/client/StandardClient.h
-    src/client/StandardClient.cpp src/client/clientmainwindow.h
-    src/client/clientmainwindow.cpp src/client/clientmainwindow.ui)
+    src/client/StandardClient.cpp src/client/ui/clientmainwindow.h
+    src/client/ui/clientmainwindow.cpp src/client/ui/clientmainwindow.ui)
 
 # 创建可执行文件
 qt_add_executable(qtip-ServerTest MANUAL_FINALIZATION ${ServerSources})
