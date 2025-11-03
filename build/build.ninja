@@ -41,69 +41,134 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/xiang/Documents/coding/c_cpp/qtip/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target qtiptest
+# Object build statements for EXECUTABLE target qtip-ServerTest
 
 
 #############################################
-# Order-only phony target for qtiptest
+# Order-only phony target for qtip-ServerTest
 
-build cmake_object_order_depends_target_qtiptest: phony || qtiptest_autogen qtiptest_autogen/mocs_compilation.cpp qtiptest_autogen/timestamp qtiptest_autogen_timestamp_deps
+build cmake_object_order_depends_target_qtip-ServerTest: phony || qtip-ServerTest_autogen qtip-ServerTest_autogen/mocs_compilation.cpp qtip-ServerTest_autogen/timestamp qtip-ServerTest_autogen_timestamp_deps
 
-build CMakeFiles/qtiptest.dir/qtiptest_autogen/mocs_compilation.cpp.o: CXX_COMPILER__qtiptest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_qtiptest
+build CMakeFiles/qtip-ServerTest.dir/qtip-ServerTest_autogen/mocs_compilation.cpp.o: CXX_COMPILER__qtip-ServerTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_qtip-ServerTest
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/qtiptest.dir/qtiptest_autogen/mocs_compilation.cpp.o.d
+  DEP_FILE = CMakeFiles/qtip-ServerTest.dir/qtip-ServerTest_autogen/mocs_compilation.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
-  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
-  OBJECT_DIR = CMakeFiles/qtiptest.dir
-  OBJECT_FILE_DIR = CMakeFiles/qtiptest.dir/qtiptest_autogen
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ServerTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ServerTest.dir/qtip-ServerTest_autogen
 
-build CMakeFiles/qtiptest.dir/src/main.cpp.o: CXX_COMPILER__qtiptest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/main.cpp || cmake_object_order_depends_target_qtiptest
+build CMakeFiles/qtip-ServerTest.dir/src/server/ServerMain.cpp.o: CXX_COMPILER__qtip-ServerTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/server/ServerMain.cpp || cmake_object_order_depends_target_qtip-ServerTest
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/qtiptest.dir/src/main.cpp.o.d
+  DEP_FILE = CMakeFiles/qtip-ServerTest.dir/src/server/ServerMain.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
-  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
-  OBJECT_DIR = CMakeFiles/qtiptest.dir
-  OBJECT_FILE_DIR = CMakeFiles/qtiptest.dir/src
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ServerTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ServerTest.dir/src/server
 
-build CMakeFiles/qtiptest.dir/src/server/servermainwindow.cpp.o: CXX_COMPILER__qtiptest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/server/servermainwindow.cpp || cmake_object_order_depends_target_qtiptest
+build CMakeFiles/qtip-ServerTest.dir/src/server/MainServer.cpp.o: CXX_COMPILER__qtip-ServerTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/server/MainServer.cpp || cmake_object_order_depends_target_qtip-ServerTest
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/qtiptest.dir/src/server/servermainwindow.cpp.o.d
+  DEP_FILE = CMakeFiles/qtip-ServerTest.dir/src/server/MainServer.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
-  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
-  OBJECT_DIR = CMakeFiles/qtiptest.dir
-  OBJECT_FILE_DIR = CMakeFiles/qtiptest.dir/src/server
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ServerTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ServerTest.dir/src/server
 
-build CMakeFiles/qtiptest.dir/src/client/clientmainwindow.cpp.o: CXX_COMPILER__qtiptest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/client/clientmainwindow.cpp || cmake_object_order_depends_target_qtiptest
+build CMakeFiles/qtip-ServerTest.dir/src/server/ui/servermainwindow.cpp.o: CXX_COMPILER__qtip-ServerTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/server/ui/servermainwindow.cpp || cmake_object_order_depends_target_qtip-ServerTest
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/qtiptest.dir/src/client/clientmainwindow.cpp.o.d
+  DEP_FILE = CMakeFiles/qtip-ServerTest.dir/src/server/ui/servermainwindow.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
-  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
-  OBJECT_DIR = CMakeFiles/qtiptest.dir
-  OBJECT_FILE_DIR = CMakeFiles/qtiptest.dir/src/client
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ServerTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ServerTest.dir/src/server/ui
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target qtiptest
+# Link build statements for EXECUTABLE target qtip-ServerTest
 
 
 #############################################
-# Link the executable qtiptest
+# Link the executable qtip-ServerTest
 
-build qtiptest: CXX_EXECUTABLE_LINKER__qtiptest_Debug CMakeFiles/qtiptest.dir/qtiptest_autogen/mocs_compilation.cpp.o CMakeFiles/qtiptest.dir/src/main.cpp.o CMakeFiles/qtiptest.dir/src/server/servermainwindow.cpp.o CMakeFiles/qtiptest.dir/src/client/clientmainwindow.cpp.o | /usr/lib64/libQt6Widgets.so.6.9.3 /usr/lib64/libQt6Svg.so.6.9.3 /usr/lib64/libQt6Sql.so.6.9.3 /usr/lib64/libQt6Network.so.6.9.3 /usr/lib64/libQt6Gui.so.6.9.3 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libQt6Core.so.6.9.3 || qtiptest_autogen qtiptest_autogen_timestamp_deps
+build qtip-ServerTest: CXX_EXECUTABLE_LINKER__qtip-ServerTest_Debug CMakeFiles/qtip-ServerTest.dir/qtip-ServerTest_autogen/mocs_compilation.cpp.o CMakeFiles/qtip-ServerTest.dir/src/server/ServerMain.cpp.o CMakeFiles/qtip-ServerTest.dir/src/server/MainServer.cpp.o CMakeFiles/qtip-ServerTest.dir/src/server/ui/servermainwindow.cpp.o | /usr/lib64/libQt6Widgets.so.6.9.3 /usr/lib64/libQt6Svg.so.6.9.3 /usr/lib64/libQt6Sql.so.6.9.3 /usr/lib64/libQt6Network.so.6.9.3 /usr/lib64/libQt6Gui.so.6.9.3 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libQt6Core.so.6.9.3 || qtip-ServerTest_autogen qtip-ServerTest_autogen_timestamp_deps
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/qtiptest.dir/link.d
+  DEP_FILE = CMakeFiles/qtip-ServerTest.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/qtiptest.dir/link.d
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/qtip-ServerTest.dir/link.d
   LINK_LIBRARIES = /usr/lib64/libQt6Widgets.so.6.9.3  /usr/lib64/libQt6Svg.so.6.9.3  /usr/lib64/libQt6Sql.so.6.9.3  /usr/lib64/libQt6Network.so.6.9.3  /usr/lib64/libQt6Gui.so.6.9.3  /usr/lib64/libGLX.so  /usr/lib64/libOpenGL.so  /usr/lib64/libQt6Core.so.6.9.3
-  OBJECT_DIR = CMakeFiles/qtiptest.dir
+  OBJECT_DIR = CMakeFiles/qtip-ServerTest.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = qtiptest
-  TARGET_PDB = qtiptest.dbg
+  TARGET_FILE = qtip-ServerTest
+  TARGET_PDB = qtip-ServerTest.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target qtip-ClientTest
+
+
+#############################################
+# Order-only phony target for qtip-ClientTest
+
+build cmake_object_order_depends_target_qtip-ClientTest: phony || qtip-ClientTest_autogen qtip-ClientTest_autogen/mocs_compilation.cpp qtip-ClientTest_autogen/timestamp qtip-ClientTest_autogen_timestamp_deps
+
+build CMakeFiles/qtip-ClientTest.dir/qtip-ClientTest_autogen/mocs_compilation.cpp.o: CXX_COMPILER__qtip-ClientTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_qtip-ClientTest
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/qtip-ClientTest.dir/qtip-ClientTest_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ClientTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ClientTest.dir/qtip-ClientTest_autogen
+
+build CMakeFiles/qtip-ClientTest.dir/src/client/ClientMain.cpp.o: CXX_COMPILER__qtip-ClientTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/client/ClientMain.cpp || cmake_object_order_depends_target_qtip-ClientTest
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/qtip-ClientTest.dir/src/client/ClientMain.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ClientTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ClientTest.dir/src/client
+
+build CMakeFiles/qtip-ClientTest.dir/src/client/StandardClient.cpp.o: CXX_COMPILER__qtip-ClientTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/client/StandardClient.cpp || cmake_object_order_depends_target_qtip-ClientTest
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/qtip-ClientTest.dir/src/client/StandardClient.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ClientTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ClientTest.dir/src/client
+
+build CMakeFiles/qtip-ClientTest.dir/src/client/ui/clientmainwindow.cpp.o: CXX_COMPILER__qtip-ClientTest_unscanned_Debug /home/xiang/Documents/coding/c_cpp/qtip/src/client/ui/clientmainwindow.cpp || cmake_object_order_depends_target_qtip-ClientTest
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/qtip-ClientTest.dir/src/client/ui/clientmainwindow.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
+  INCLUDES = -isystem /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtSvg -isystem /usr/include/qt6/QtSql -isystem /usr/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles/qtip-ClientTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/qtip-ClientTest.dir/src/client/ui
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target qtip-ClientTest
+
+
+#############################################
+# Link the executable qtip-ClientTest
+
+build qtip-ClientTest: CXX_EXECUTABLE_LINKER__qtip-ClientTest_Debug CMakeFiles/qtip-ClientTest.dir/qtip-ClientTest_autogen/mocs_compilation.cpp.o CMakeFiles/qtip-ClientTest.dir/src/client/ClientMain.cpp.o CMakeFiles/qtip-ClientTest.dir/src/client/StandardClient.cpp.o CMakeFiles/qtip-ClientTest.dir/src/client/ui/clientmainwindow.cpp.o | /usr/lib64/libQt6Widgets.so.6.9.3 /usr/lib64/libQt6Svg.so.6.9.3 /usr/lib64/libQt6Sql.so.6.9.3 /usr/lib64/libQt6Network.so.6.9.3 /usr/lib64/libQt6Gui.so.6.9.3 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libQt6Core.so.6.9.3 || qtip-ClientTest_autogen qtip-ClientTest_autogen_timestamp_deps
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/qtip-ClientTest.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/qtip-ClientTest.dir/link.d
+  LINK_LIBRARIES = /usr/lib64/libQt6Widgets.so.6.9.3  /usr/lib64/libQt6Svg.so.6.9.3  /usr/lib64/libQt6Sql.so.6.9.3  /usr/lib64/libQt6Network.so.6.9.3  /usr/lib64/libQt6Gui.so.6.9.3  /usr/lib64/libGLX.so  /usr/lib64/libOpenGL.so  /usr/lib64/libQt6Core.so.6.9.3
+  OBJECT_DIR = CMakeFiles/qtip-ClientTest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = qtip-ClientTest
+  TARGET_PDB = qtip-ClientTest.dbg
 
 
 #############################################
@@ -173,32 +238,61 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 
 #############################################
-# Utility command for qtiptest_autogen_timestamp_deps
+# Utility command for qtip-ServerTest_autogen_timestamp_deps
 
-build qtiptest_autogen_timestamp_deps: phony
-
-
-#############################################
-# Utility command for qtiptest_autogen
-
-build qtiptest_autogen: phony CMakeFiles/qtiptest_autogen qtiptest_autogen/include/src/server/ui_servermainwindow.h qtiptest_autogen/include/src/client/ui_clientmainwindow.h qtiptest_autogen/timestamp qtiptest_autogen/mocs_compilation.cpp qtiptest_autogen_timestamp_deps
+build qtip-ServerTest_autogen_timestamp_deps: phony
 
 
 #############################################
-# Custom command for qtiptest_autogen/timestamp
+# Utility command for qtip-ServerTest_autogen
 
-build qtiptest_autogen/timestamp qtiptest_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}qtiptest_autogen/timestamp ${cmake_ninja_workdir}qtiptest_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib64/qt6/libexec/moc /usr/lib64/qt6/libexec/uic || qtiptest_autogen_timestamp_deps
-  COMMAND = cd /home/xiang/Documents/coding/c_cpp/qtip/build && /usr/bin/cmake -E cmake_autogen /home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtiptest_autogen.dir/AutogenInfo.json Debug && /usr/bin/cmake -E touch /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/timestamp && /usr/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/xiang/Documents/coding/c_cpp/qtip /home/xiang/Documents/coding/c_cpp/qtip /home/xiang/Documents/coding/c_cpp/qtip/build /home/xiang/Documents/coding/c_cpp/qtip/build /home/xiang/Documents/coding/c_cpp/qtip/build/qtiptest_autogen/deps /home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/d/05ae13aa720bac99b86eb08ad7ff4e7fdbdcc368e7e458e53a4b4c20a216c279.d
-  DESC = Automatic MOC and UIC for target qtiptest
-  depfile = CMakeFiles/d/05ae13aa720bac99b86eb08ad7ff4e7fdbdcc368e7e458e53a4b4c20a216c279.d
+build qtip-ServerTest_autogen: phony CMakeFiles/qtip-ServerTest_autogen qtip-ServerTest_autogen/include/src/server/ui/ui_servermainwindow.h qtip-ServerTest_autogen/include/src/client/ui/ui_clientmainwindow.h qtip-ServerTest_autogen/timestamp qtip-ServerTest_autogen/mocs_compilation.cpp qtip-ServerTest_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for qtip-ClientTest_autogen_timestamp_deps
+
+build qtip-ClientTest_autogen_timestamp_deps: phony
+
+
+#############################################
+# Utility command for qtip-ClientTest_autogen
+
+build qtip-ClientTest_autogen: phony CMakeFiles/qtip-ClientTest_autogen qtip-ClientTest_autogen/include/src/server/ui/ui_servermainwindow.h qtip-ClientTest_autogen/include/src/client/ui/ui_clientmainwindow.h qtip-ClientTest_autogen/timestamp qtip-ClientTest_autogen/mocs_compilation.cpp qtip-ClientTest_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for qtip-ServerTest_autogen/timestamp
+
+build qtip-ServerTest_autogen/timestamp qtip-ServerTest_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}qtip-ServerTest_autogen/timestamp ${cmake_ninja_workdir}qtip-ServerTest_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib64/qt6/libexec/moc /usr/lib64/qt6/libexec/uic || qtip-ServerTest_autogen_timestamp_deps
+  COMMAND = cd /home/xiang/Documents/coding/c_cpp/qtip/build && /usr/bin/cmake -E cmake_autogen /home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ServerTest_autogen.dir/AutogenInfo.json Debug && /usr/bin/cmake -E touch /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/timestamp && /usr/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/xiang/Documents/coding/c_cpp/qtip /home/xiang/Documents/coding/c_cpp/qtip /home/xiang/Documents/coding/c_cpp/qtip/build /home/xiang/Documents/coding/c_cpp/qtip/build /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ServerTest_autogen/deps /home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/d/ead1f3e1e410b5285570560c68287b5a752a017f5ca948993800bcab2e758f34.d
+  DESC = Automatic MOC and UIC for target qtip-ServerTest
+  depfile = CMakeFiles/d/ead1f3e1e410b5285570560c68287b5a752a017f5ca948993800bcab2e758f34.d
   deps = gcc
   restat = 1
 
 
 #############################################
-# Phony custom command for CMakeFiles/qtiptest_autogen
+# Custom command for qtip-ClientTest_autogen/timestamp
 
-build CMakeFiles/qtiptest_autogen qtiptest_autogen/include/src/server/ui_servermainwindow.h qtiptest_autogen/include/src/client/ui_clientmainwindow.h | ${cmake_ninja_workdir}CMakeFiles/qtiptest_autogen ${cmake_ninja_workdir}qtiptest_autogen/include/src/server/ui_servermainwindow.h ${cmake_ninja_workdir}qtiptest_autogen/include/src/client/ui_clientmainwindow.h: phony qtiptest_autogen/timestamp || qtiptest_autogen_timestamp_deps
+build qtip-ClientTest_autogen/timestamp qtip-ClientTest_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}qtip-ClientTest_autogen/timestamp ${cmake_ninja_workdir}qtip-ClientTest_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib64/qt6/libexec/moc /usr/lib64/qt6/libexec/uic || qtip-ClientTest_autogen_timestamp_deps
+  COMMAND = cd /home/xiang/Documents/coding/c_cpp/qtip/build && /usr/bin/cmake -E cmake_autogen /home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/qtip-ClientTest_autogen.dir/AutogenInfo.json Debug && /usr/bin/cmake -E touch /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/timestamp && /usr/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/xiang/Documents/coding/c_cpp/qtip /home/xiang/Documents/coding/c_cpp/qtip /home/xiang/Documents/coding/c_cpp/qtip/build /home/xiang/Documents/coding/c_cpp/qtip/build /home/xiang/Documents/coding/c_cpp/qtip/build/qtip-ClientTest_autogen/deps /home/xiang/Documents/coding/c_cpp/qtip/build/CMakeFiles/d/4f7f758511a98971e3452e2e1735329eb8333addd19d83f8dbf38b07c36a3235.d
+  DESC = Automatic MOC and UIC for target qtip-ClientTest
+  depfile = CMakeFiles/d/4f7f758511a98971e3452e2e1735329eb8333addd19d83f8dbf38b07c36a3235.d
+  deps = gcc
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/qtip-ServerTest_autogen
+
+build CMakeFiles/qtip-ServerTest_autogen qtip-ServerTest_autogen/include/src/server/ui/ui_servermainwindow.h qtip-ServerTest_autogen/include/src/client/ui/ui_clientmainwindow.h | ${cmake_ninja_workdir}CMakeFiles/qtip-ServerTest_autogen ${cmake_ninja_workdir}qtip-ServerTest_autogen/include/src/server/ui/ui_servermainwindow.h ${cmake_ninja_workdir}qtip-ServerTest_autogen/include/src/client/ui/ui_clientmainwindow.h: phony qtip-ServerTest_autogen/timestamp || qtip-ServerTest_autogen_timestamp_deps
+
+
+#############################################
+# Phony custom command for CMakeFiles/qtip-ClientTest_autogen
+
+build CMakeFiles/qtip-ClientTest_autogen qtip-ClientTest_autogen/include/src/server/ui/ui_servermainwindow.h qtip-ClientTest_autogen/include/src/client/ui/ui_clientmainwindow.h | ${cmake_ninja_workdir}CMakeFiles/qtip-ClientTest_autogen ${cmake_ninja_workdir}qtip-ClientTest_autogen/include/src/server/ui/ui_servermainwindow.h ${cmake_ninja_workdir}qtip-ClientTest_autogen/include/src/client/ui/ui_clientmainwindow.h: phony qtip-ClientTest_autogen/timestamp || qtip-ClientTest_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
@@ -211,7 +305,7 @@ build CMakeFiles/qtiptest_autogen qtiptest_autogen/include/src/server/ui_serverm
 #############################################
 # Folder: /home/xiang/Documents/coding/c_cpp/qtip/build
 
-build all: phony qtiptest
+build all: phony qtip-ServerTest qtip-ClientTest
 
 # =============================================================================
 # Built-in targets
