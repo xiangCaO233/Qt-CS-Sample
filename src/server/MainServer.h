@@ -17,6 +17,9 @@ class MainServer : public QObject {
     // 关闭服务器
     void stopServer();
 
+    // 服务器是否存活
+    bool alive();
+
    private slots:
     // 新连接
     void onNewConnection();

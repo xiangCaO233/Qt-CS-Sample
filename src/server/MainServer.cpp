@@ -19,9 +19,9 @@ void MainServer::startServer(short port) {
         return;
     }
     if (m_Server->listen(QHostAddress::Any, port)) {
-        qDebug() << "启动服务器监听失败";
-    } else {
         qDebug() << "服务器已启动,监听端口:" << port;
+    } else {
+        qDebug() << "启动服务器监听失败";
     }
 }
 
@@ -39,6 +39,9 @@ void MainServer::stopServer() {
         client->disconnectFromHost();
     }
 }
+
+// 服务器是否存活
+bool MainServer::alive() { return m_Server->isListening(); }
 
 // 新连接
 void MainServer::onNewConnection() {
