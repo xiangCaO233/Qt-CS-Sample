@@ -14,7 +14,7 @@
    <string>ServerMainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_3">
+   <layout class="QVBoxLayout" name="verticalLayout_4">
     <item>
      <widget class="QLabel" name="title">
       <property name="text">
@@ -43,6 +43,9 @@
             <property name="inputMask">
              <string notr="true"/>
             </property>
+            <property name="text">
+             <string>8080</string>
+            </property>
             <property name="alignment">
              <set>Qt::AlignmentFlag::AlignCenter</set>
             </property>
@@ -55,34 +58,57 @@
             </property>
            </widget>
           </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton">
-         <property name="text">
-          <string>stop</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QWidget" name="clientlist" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout">
           <item>
-           <widget class="QLabel" name="clients_label">
+           <widget class="QPushButton" name="stop_server_button">
             <property name="text">
-             <string>Connected Clients</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignmentFlag::AlignCenter</set>
+             <string>Stop Listen</string>
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QListWidget" name="client_list_widget"/>
-          </item>
          </layout>
         </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QWidget" name="clientlist" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="clients_label">
+              <property name="text">
+               <string>Connected Clients</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QListWidget" name="client_list_widget"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="logs_widget" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QLabel" name="logs_title">
+              <property name="text">
+               <string>Logs</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTextEdit" name="logarea"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
        </item>
       </layout>
      </widget>
@@ -95,7 +121,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>36</height>
     </rect>
    </property>
   </widget>
