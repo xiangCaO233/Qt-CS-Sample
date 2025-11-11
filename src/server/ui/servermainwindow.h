@@ -16,6 +16,11 @@ class ServerMainWindow : public QMainWindow {
     explicit ServerMainWindow(QWidget *parent = nullptr);
     ~ServerMainWindow();
 
+   private slots:
+    void on_start_server_button_clicked();
+
+    void on_stop_server_button_clicked();
+
    private:
     Ui::ServerMainWindow *ui;
     MainServer *m_Mainserver{nullptr};
